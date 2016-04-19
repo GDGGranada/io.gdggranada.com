@@ -69,12 +69,21 @@
             vertical-align: middle;
         }
 
+          @media screen and (min-width: 841px) {
+            gcp-logo{
+              background-size: contain;
+              background: url('data/images/ioextendedgranada.png') no-repeat;
+            }
+          }
+
         @media screen and (max-width: 840px) {
             paper-tabs {
                 margin-right: 0px;
             }
             .gcp-logo{
+              background: url('../data/images/ioextendedgranada_w.png') no-repeat;
               width: 90%;
+              background-size: contain;
             }
         }
         </style>
@@ -84,7 +93,7 @@
             <template is="dom-if" if="{{!wide}}">
                 <app-drawer id="drawer" swipe-open>
                     <paper-toolbar class="tall">
-                        <div class="top gcp-logo" flex style="background: url('{{pagecontents.header.drawer_icon_picture}}') no-repeat; background-size: contain;"></div>
+                        <div class="top gcp-logo" flex></div>
                         <div class="bottom drawer-text">
                             <div>9:00AM, 30 April</div>
                             <div>Asia Pacific University, KL</div>
