@@ -1,7 +1,7 @@
 [{
     "header": {
-        "toolbar_icon_picture": "https://placehold.it/200x100/ffffff/0D47A1?text=logo",
-        "drawer_icon_picture": "https://placehold.it/350x250/0D47A1/ffffff?text=logo"
+        "toolbar_icon_picture": "data/images/ioextendedgranada.png",
+        "drawer_icon_picture": "data/images/ioextendedgranada.png"
     },
     "menu":{
       "home": "HOME",
@@ -19,32 +19,22 @@
     },
 
     "details": {
-        "time": "event_date_&_time",
-        "location": "venue_location",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet lectus arcu, id mollis nunc ullamcorper vel. Donec placerat urna vel suscipit blandit. Proin sit amet iaculis nibh. In hac habitasse platea dictumst.",
+        "time": "Google IO Extended Granada",
+        "location": "Escuela Técnica Superior de Ingenierías Informática y Telecomunicación de la Universidad de Granada",
+        "description": "Google celebra en mayo su evento más importante. ¡Ven con nosotros a disfrutar de la keynote en el mejor ambiente! Rodeado por otros desarrolladores y disfrutando de una pantalla de grandes dimensiones. ¿A qué estás esperando?",
         "event_cover_picture_desktop": "https://placehold.it/1920x1100/ffffff/0D47A1?text=event+cover+picture+desktop",
         "event_cover_picture_mobile": "https://placehold.it/720x840/0D47A1/ffffff?text=event+cover+picture+mobile",
-        "venue_map_latitude": "37.77493",
-        "venue_map_longitude": "-122.41942",
-        "venue_pointer_latitude": "37.77493",
-        "venue_pointer_longitude": "-122.41942",
-        "peatix_event_url": "https://gcpnextkl2016.peatix.com",
-        "get-ticket": "Get your ticket now on Peatix",
-        "button-get-ticket": "Book now",
-        "organized-by":"Organized by",
-        "made-possible-with":"Made possible with",
+        "venue_map_latitude": "37.1970627",
+        "venue_map_longitude": "-3.624426",
+        "venue_pointer_latitude": "37.1970627",
+        "venue_pointer_longitude": "-3.624426",
+        "peatix_event_url": "http://www.meetup.com/es-ES/GDG_Granada/events/229602941/",
+        "get-ticket": "¡Inscríbete a nuestra comunidad de Meetup y confirma asistencia!",
+        "button-get-ticket": "Inscribirse",
+        "organized-by":"Organizado por",
+        "made-possible-with":"Gracias a",
         "sponsor": "/data/images/google.png",
         "co-sponsor": [{
-            "sponsor_image": "/data/images/google.png"
-        }, {
-            "sponsor_image": "/data/images/google.png"
-        }, {
-            "sponsor_image": "/data/images/google.png"
-        }, {
-            "sponsor_image": "/data/images/google.png"
-        }, {
-            "sponsor_image": "/data/images/google.png"
-        }, {
             "sponsor_image": "/data/images/google.png"
         }]
     },
@@ -53,7 +43,7 @@
     },
     "agenda":{
       "title":"Agenda",
-      "tochange":"* Subject to change"
+      "tochange":"* La organización se reserva el derecho a cambiar el programa"
     },
     "getting": {
         "title": "Getting there",
@@ -82,9 +72,9 @@
         "peatix_iframe_url": "https://peatix.com/event/162445/share/widget?z=1&t=1"
     },
     "footer": {
-        "organization_image": "/data/images/gdgkl.png",
-        "organization_url": "https://www.facebook.com/GDGKualaLumpur/",
-        "organization_name": "GDG Kuala Lumpur",
+        "organization_image": "/data/images/gdg.png",
+        "organization_url": "http://gdggranada.com/",
+        "organization_name": "GDG Granada",
         "author_name": "Henry Lim",
         "author_url": "https://limhenry.xyz"
     }
